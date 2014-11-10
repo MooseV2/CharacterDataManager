@@ -7,7 +7,7 @@ root = tk.Tk()
 with open('data.json') as json_data:
     data = json.load(json_data)
     json_data.close()
-
+.....
 print data
 
 
