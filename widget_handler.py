@@ -1,7 +1,7 @@
 #Widgets file
 #Anthony DeSouza
 
-import Tkinter as tk
+import tkinter as tk
 
 class DataEntry(tk.Frame):
     def __init__(self, master, label='', value=0, min_value=None, max_value=None):

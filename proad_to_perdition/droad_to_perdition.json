@@ -3,120 +3,441 @@
     {
         "O'fra" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         },
         "Ta'ka" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         },
         "So'frag" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         },
         "Ti'valin" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         },
         "Kos'va" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         },
         "Le'tra" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         }
     },
     "Imperium" :
     {
         "Kandrin" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         },
         "Tahl" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         },
         "Tonbardur" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         },
         "Kasanbazur" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         },
         "Unbat" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         },
         "Fazahr" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         }
     },
     "Demons" :
     {
         "O'fra" :
         {
-
+            "Undead Viking" :
+            {
+                "Power" : 4,
+                "Precision" : 5,
+                "Strength" : 4,
+                "Defence" : 4,
+                "Attacks" : 1,
+                "Lives" : 1,
+                "Bravery" : 8,
+                "Armor" : 1,
+                "bPoints" : 15
+            },
+            "Undead Viking Hunter" :
+            {
+                "Power" : 3,
+                "Precision" : 3,
+                "Strength" : 3,
+                "Defence" : 4,
+                "Attacks" : 1,
+                "Lives" : 1,
+                "Bravery" : 8,
+                "Armor" : 1,
+                "bPoints" : 15
+            },
+            "Undead Wolf Pack" :
+            {
+                "Power" : 3,
+                "Precision" : 0,
+                "Strength" : 3,
+                "Defence" : 4,
+                "Attacks" : 1,
+                "Lives" : 1,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 15
+            }
         },
         "Ta'ka" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         },
         "So'frag" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         },
         "Ti'valin" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         },
         "Kos'va" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         },
         "Le'tra" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         },
         "Kandrin" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         },
         "Tahl" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         },
         "Tonbardur" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         },
         "Kasanbazur" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         },
         "Unbat" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         },
         "Fazahr" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         }
     },
     "Rest" :
     {
         "Damned" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         },
         "Kingdom" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         },
         "Mercenary" :
         {
-
+            "Test" :
+            {
+                "Power" : 0,
+                "Precision" : 0,
+                "Strength" : 0,
+                "Defence" : 0,
+                "Attacks" : 0,
+                "Lives" : 0,
+                "Bravery" : 0,
+                "Armor" : 0,
+                "bPoints" : 0
+            }
         }
     }
 }

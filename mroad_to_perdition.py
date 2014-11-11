@@ -34,8 +34,8 @@ for fraction in data :
     fractions.append(fraction)
 fractions.sort()
 
-listf = OptionMenu(frame, selectedf, *fractions)
-listf.grid(row=0, column=0)
+dlistf = OptionMenu(frame, selectedf, *fractions)
+dlistf.grid(row=0, column=0)
 
 selectedc = StringVar(frame)
 
@@ -46,8 +46,8 @@ countries.sort()
 
 selectedc.set(countries[0])
 
-listc = OptionMenu(frame, selectedc, *countries)
-listc.grid(row=0, column=1)
+dlistc = OptionMenu(frame, selectedc, *countries)
+dlistc.grid(row=0, column=1)
 
 selectedu = StringVar(frame)
 
@@ -58,50 +58,10 @@ units.sort()
 
 selectedu.set(units[0])
 
-listu = OptionMenu(frame, selectedu, *units)
-listu.grid(row=0, column=2)
-
-#---------------- LIVE UPDATE ----------------------------------------------------------------
-
-def callbackf() :
-
-    selectedc = StringVar(frame)
-    selectedc.set(" ")
-
-    countries = []
-    for country in data[selectedf.get()] :
-        countries.append(country)
-    countries.sort()
-
-    listc = []
-    listc.append(countries)
-
-    listu = []
-
-def callbackc() :
-
-    selectedu = StringVar()
-    selectedu.set(" ")
-
-    units = []
-    for unit in data[selectedf.get()][selectedc.get()] :
-        units.append(unit)
-    units.sort()
-
-    listu = []
-    listu.append(units)
-
-#def callbacku() :
-
-
-selectedf.trace("w", callbackf())
-selectedc.trace("w", callbackc())
-
-
-
+dlistu = OptionMenu(frame, selectedu, *units)
+dlistu.grid(row=0, column=2)
 
 #---------------- BUTTONS ------------------------------------------------------------------
-
 bPower = DataEntry(frame, label='Power', min_value=0, max_value=10)
 bPower.grid(row=2 , column=0)
 
@@ -123,12 +83,64 @@ bLives.grid(row=2 , column=5)
 bBravery = DataEntry(frame, label='Bravery', min_value=0, max_value=10)
 bBravery.grid(row=2 , column=6)
 
-bArmor = DataEntry(frame, label='Armor', min_value=0, max_value=3)
-bArmor.grid(row=2 , column=7)
-bArmor
+lista = ["None", "Simple", "Heavy", "Massive"]
 
-bPoints = DataEntry(frame, label='Points', min_value=0, max_value=1000)
-bPoints.grid(row=2 , column=8)
+bArmor = DataString(frame, lista, label='Armor')
+bArmor.grid(row=2 , column=7)
+
+bbPoints = DataEntry(frame, label='Basic Points', min_value=0, max_value=1000)
+bbPoints.grid(row=2 , column=8)
+
+#---------------- LIVE UPDATE / LOADING SINGLE UNITS ----------------------------------------------------------------
+def callbackf() :
+
+    selectedc = StringVar(frame)
+
+    countries = []
+    for country in data[selectedf.get()] :
+        countries.append(country)
+    countries.sort()
+
+    selectedc.set(countries[0])
+
+    dlistc = []
+    dlistc.append(countries)
+
+    dlistu = []
+
+def callbackc() :
+
+    selectedu = StringVar()
+
+    units = []
+    for unit in data[selectedf.get()][selectedc.get()] :
+        units.append(unit)
+    units.sort()
+
+    selectedu.set(units[0])
+
+    dlistu = []
+    dlistu.append(units)
+
+def callbacku() :
+    bPower.change_value(data[selectedf.get()][selectedc.get()][selectedu.get()]["Power"])
+    bPrecision.change_value(data[selectedf.get()][selectedc.get()][selectedu.get()]["Precision"])
+    bStrenght.change_value(data[selectedf.get()][selectedc.get()][selectedu.get()]["Strength"])
+    bDefence.change_value(data[selectedf.get()][selectedc.get()][selectedu.get()]["Defence"])
+    bAttacks.change_value(data[selectedf.get()][selectedc.get()][selectedu.get()]["Attacks"])
+    bLives.change_value(data[selectedf.get()][selectedc.get()][selectedu.get()]["Lives"])
+    bBravery.change_value(data[selectedf.get()][selectedc.get()][selectedu.get()]["Bravery"])
+    bArmor.change_value(data[selectedf.get()][selectedc.get()][selectedu.get()]["Armor"])
+    bbPoints.change_value(data[selectedf.get()][selectedc.get()][selectedu.get()]["bPoints"])
+
+
+
+selectedf.trace("w", callbackf())
+selectedc.trace("w", callbackc())
+selectedu.trace("w", callbacku())
+
+
+
 
 
 
